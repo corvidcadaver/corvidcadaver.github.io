@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    reactStrictMode: true,
-    basePath: "/brandon-pages",
+    // output: "standalone",
+    // reactStrictMode: true,
 };
 
 export default nextConfig;
