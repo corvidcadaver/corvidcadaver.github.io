@@ -23,7 +23,7 @@ export default function Home() {
         .catch(err => {
           console.error("Failed to copy: ", err);
         })
-        setDiscordButtonText("Copied!")
+        setDiscordButtonText("Copied username!")
     })
   })
 
@@ -151,7 +151,7 @@ export default function Home() {
         <div className="contact-section">
           <h2>Ready to Commission?</h2>
           <p className="contact-intro">Don't see what you're looking for? Let me know! I love taking on unique projects and pushing the boundaries of pixel art.</p>
-          <div className="commission-form">
+          {/* <div className="commission-form">
             <h3>Request a Commission</h3>
             <form className="contact-form">
               <div className="form-group">
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
               <button type="submit" className="submit-btn">Send Request</button>
             </form>
-          </div>
+          </div> */}
           <div className="social-links">
             <h3>Find Me Online</h3>
             <div className="social-grid">
@@ -191,7 +191,7 @@ export default function Home() {
                     <img src="./icons/bluesky.png" style={{maxWidth: '100%', maxHeight: '100%'}} />
                   </div>
                 </div>
-                <span>@afterelysium.bsky.social</span>
+                <span>@afterelysium</span>
               </a>
               <a href="https://www.reddit.com/user/Bzubko/" className="social-item">
                 <div className="social-icon">
@@ -206,7 +206,7 @@ export default function Home() {
         </div>
         <div style={{display: "flex", justifyContent: "center"}}>
           <a href="https://noah-portfolio-ddff5.web.app">
-            Website created in collaboration with Noah Reed
+            Website made in collaboration with Noah Reed
           </a>
         </div>
       </div>
