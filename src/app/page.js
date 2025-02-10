@@ -65,7 +65,6 @@ export default function Home() {
               <li>High complexity character/background: +$10</li>
               <li>Simple animation (blinking, flicking ear/tail, etc...): +$15</li>
               <li>Additional character: +$20</li>
-              <li>Nudity/Gore: +$50</li>
             </ul>
           </div>
         </div>
