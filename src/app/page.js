@@ -33,8 +33,12 @@ export default function Home() {
       <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=VT323&display=swap" rel="stylesheet" />
       <div className="header">
-      <h1>Corvid Creative</h1>
-      <p>Pixel Art Commission Pricing</p>
+        <h1>Corvid Creative</h1>
+        <p>Pixel Art Commission Pricing</p>
+      </div>
+      <div style={{display:'flex', justifyContent:'center'}}>
+        <img src="movies/UnderConstruction.gif">
+        </img>
       </div>
       <div className="content">  
         <div className="price-section">
